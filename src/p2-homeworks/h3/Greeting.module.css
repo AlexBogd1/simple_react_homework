@@ -1,0 +1,49 @@
+
+.container {
+    width: 1150px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    font-family: Tahoma;
+
+}
+
+.inputContainer {
+    margin: 20px;
+}
+
+.inputContainer * {
+    margin: 1px 2px;
+
+}
+
+.inputContainer button {
+    width: 60px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.error {
+    border: 1px solid red;
+}
+
+input {
+    padding: 2px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: #effffb !important;
+    outline: none;
+    height: 24px;
+    width: 120px;
+    color: #6b5b5b;
+    font-size: 15px;
+    width: 150px
+}

@@ -1,0 +1,31 @@
+.app {
+    text-align: center;
+
+}
+
+.affair {
+    padding: 5px;
+    margin: 10px auto;
+    width: 120px;
+    border: #062402 solid 2px;
+    border-radius: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.affair button {
+    margin-left: 7px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.filterButton {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px 15px;
+}
+
+
