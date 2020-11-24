@@ -10,9 +10,10 @@ function Header() {
     }
 
     return (
-        <div className={s.header} onClick={onClickHandler}>
+        <div className={s.header} >
+            <button className={s.button} onClick={onClickHandler}>Menu</button>
             {openNavbar &&
-            <ul className={s.ul}>
+            <ul className={s.ul} >
                 <li className={s.li}><NavLink activeClassName={s.active} to="/pre-junior">Pre Junior</NavLink></li>
                 <li className={s.li}><NavLink activeClassName={s.active} to="/junior">Junior</NavLink></li>
                 <li className={s.li}><NavLink activeClassName={s.active} to="/junior-plus">Junior Plus</NavLink></li>
