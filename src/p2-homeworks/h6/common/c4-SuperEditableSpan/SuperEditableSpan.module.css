@@ -1,4 +1,6 @@
-.superInput {
+
+.superSpan {
+
     color: #3CBC8D;
     text-align: center;
     width: 200px;
@@ -7,18 +9,4 @@
     display: inline-block;
     border-radius: 10px;
     border: 3px solid #3CBC8D;
-}
-
-.superInput:focus {
-    border: 3px solid #3CBC8D;
-}
-
-
-.errorInput {
-    border: 3px solid lime;
-    background: red;
-}
-
-.error {
-    color: red;
 }
