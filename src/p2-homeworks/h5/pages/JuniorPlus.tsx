@@ -4,7 +4,6 @@ function JuniorPlus() {
     return (
         <div>
             Junior Plus Page
-
         </div>
     );
 }
