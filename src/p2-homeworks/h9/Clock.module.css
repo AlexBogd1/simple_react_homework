@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'digi';
+    src: url('http://cssdeck.com/uploads/resources/fonts/digii/DS-DIGII.TTF');
+}
+
+.container{
+    display: flex;
+}
+
+.timeBlock {
+    font-family: 'digi';
+    font-size: 25px;
+    width: 250px; height: 100px;
+    color: #707070;
+    text-align: center;
+    line-height: 100px;
+    border-top: 5px solid #E54B6B;
+    background-image: linear-gradient(#f0f0f0, white);
+}
+
+.dateBlock {
+    font-family: 'digi';
+    font-size: 25px;
+    padding-right: 15px ;
+    color: #707070;
+    text-align: center;
+    line-height: 100px;
+    border-top: 5px solid #E54B6B;
+    background-image: linear-gradient(#f0f0f0, white);
+}
+
+
+
