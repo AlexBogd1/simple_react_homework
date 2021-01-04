@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import s from './Header.module.css'
 import {NavLink} from "react-router-dom";
+import {PATH} from "./Routes";
 
 function Header() {
     const [openNavbar, setOpenNavbar] = useState<boolean>(true)
@@ -14,9 +15,9 @@ function Header() {
             <button className={s.button} onClick={onClickHandler}>Menu</button>
             {openNavbar &&
             <ul className={s.ul} >
-                <li className={s.li}><NavLink activeClassName={s.active} to="/pre-junior">Pre Junior</NavLink></li>
-                <li className={s.li}><NavLink activeClassName={s.active} to="/junior">Junior</NavLink></li>
-                <li className={s.li}><NavLink activeClassName={s.active} to="/junior-plus">Junior Plus</NavLink></li>
+                <li className={s.li}><NavLink activeClassName={s.active} to={PATH.PRE_JUNIOR}>Pre Junior</NavLink></li>
+                <li className={s.li}><NavLink activeClassName={s.active} to={PATH.JUNIOR}>Junior</NavLink></li>
+                <li className={s.li}><NavLink activeClassName={s.active} to={PATH.JUNIOR_PLUS}>Junior Plus</NavLink></li>
             </ul>}
         </div>
     );
