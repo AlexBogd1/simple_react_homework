@@ -1,3 +1,4 @@
+
 .dark {
     background: dimgrey;
 }
@@ -20,4 +21,12 @@
 
 .some-text {
     color: darkslateblue;
+}
+
+.darkolivegreen {
+    background: darkolivegreen;
+}
+
+.darkolivegreen-text {
+    color: antiquewhite;
 }
